@@ -40,13 +40,13 @@ public final class Pair<A, B> {
 
 //        Pair<BigInteger, String> pair1 = Pair.of(new BigInteger("300", 10), "hello");
 //        Pair<BigInteger, String> pair2 = Pair.of(new BigInteger("300", 10), "hello");
-        Pair<Integer, Integer> pair1 = Pair.of(null, Integer.valueOf(1000));
-        Pair<Integer, Integer> pair2 = Pair.of(null, Integer.valueOf(1000));
+//        Pair<Integer, Integer> pair1 = Pair.of(null, Integer.valueOf(1000));
+//        Pair<Integer, Integer> pair2 = Pair.of(null, Integer.valueOf(1000));
 
 
-        System.out.println("pair1.equals(pair2) = " + pair1.equals(pair2));
-        System.out.println("pair1.hashCode() = " + pair1.hashCode());
-        System.out.println("pair2.hashCode() = " + pair2.hashCode());
+//        System.out.println("pair1.equals(pair2) = " + pair1.equals(pair2));
+//        System.out.println("pair1.hashCode() = " + pair1.hashCode());
+//        System.out.println("pair2.hashCode() = " + pair2.hashCode());
     }
 
 }
